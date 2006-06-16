@@ -1,0 +1,81 @@
+xorg-font-util
+------------------------------------------
+Xorg font utilities and font maps
+
+Runtime requirements:
+  cygwin-1.5.19-4
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.7-1.7.9-1
+  binutils-20050610-1
+  cygport-0.1.6-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+  xorg-util-macros-1.0.1-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xorg-font-util-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xorg-font-util-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/xorg-font-util-1.0.0-X-src.tar.bz2
+  /usr/src/xorg-font-util-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/bdftruncate
+  /usr/bin/ucs2any.exe
+  /usr/lib/pkgconfig/fontutil.pc
+  /usr/share/aclocal/fontutil.m4
+  /usr/share/doc/Cygwin/xorg-font-util-1.0.0.README
+  /usr/share/doc/xorg-font-util-1.0.0/COPYING
+  /usr/share/doc/xorg-font-util-1.0.0/ChangeLog
+  /usr/share/fonts/util/map-ISO8859-1
+  /usr/share/fonts/util/map-ISO8859-10
+  /usr/share/fonts/util/map-ISO8859-11
+  /usr/share/fonts/util/map-ISO8859-13
+  /usr/share/fonts/util/map-ISO8859-14
+  /usr/share/fonts/util/map-ISO8859-15
+  /usr/share/fonts/util/map-ISO8859-16
+  /usr/share/fonts/util/map-ISO8859-2
+  /usr/share/fonts/util/map-ISO8859-3
+  /usr/share/fonts/util/map-ISO8859-4
+  /usr/share/fonts/util/map-ISO8859-5
+  /usr/share/fonts/util/map-ISO8859-6
+  /usr/share/fonts/util/map-ISO8859-7
+  /usr/share/fonts/util/map-ISO8859-8
+  /usr/share/fonts/util/map-ISO8859-9
+  /usr/share/fonts/util/map-JISX0201.1976-0
+  /usr/share/fonts/util/map-KOI8-R
+  /usr/share/man/man1/bdftruncate.1.gz
+  /usr/share/man/man1/ucs2any.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

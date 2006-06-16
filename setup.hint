@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin
+sdesc: "Xorg font utilities and font maps"
+ldesc: "Xorg font utilities and font maps"
