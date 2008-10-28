@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin
-sdesc: "Xorg font utilities and font maps"
-ldesc: "Xorg font utilities and font maps"
+requires: cygwin perl
+sdesc: "X.Org font utilities and font maps"
+ldesc: "X.Org font utilities and font maps"
