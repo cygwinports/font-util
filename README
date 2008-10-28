@@ -1,4 +1,4 @@
-xorg-font-util
+font-util
 ------------------------------------------
 X.Org font utilities and font maps
 
@@ -28,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xorg-font-util-1.0.1-X-src.tar.bz2
+  unpack font-util-1.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xorg-font-util-1.0.1-X.cygport all
+  cygport ./font-util-1.0.1-X.cygport all
 
 This will create:
-  /usr/src/xorg-font-util-1.0.1-X-src.tar.bz2
-  /usr/src/xorg-font-util-1.0.1-X.tar.bz2
+  /usr/src/font-util-1.0.1-X-src.tar.bz2
+  /usr/src/font-util-1.0.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -46,8 +46,8 @@ Files included in the binary package:
   /usr/bin/ucs2any.exe
   /usr/lib/pkgconfig/fontutil.pc
   /usr/share/aclocal/fontutil.m4
-  /usr/share/doc/xorg-font-util-1.0.1/COPYING
-  /usr/share/doc/xorg-font-util-1.0.1/ChangeLog
+  /usr/share/doc/font-util-1.0.1/COPYING
+  /usr/share/doc/font-util-1.0.1/ChangeLog
   /usr/share/fonts/util/map-ISO8859-1
   /usr/share/fonts/util/map-ISO8859-10
   /usr/share/fonts/util/map-ISO8859-11
@@ -76,7 +76,7 @@ Port Notes:
 Version bump.
 
 ----- version 1.0.0-1 -----
-Initial Cygwin release of modular X11R7.0.
+Initial Cygwin release of modular X11.
 
 
 Cygwin port maintained by:
