@@ -3,21 +3,20 @@ font-util
 X.Org font utilities and font maps
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-60
+  libgcc1-4.3.2-2
   perl
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-2
-  binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  pkg-config-0.23a-2
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
+  xorg-util-macros-1.2.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -28,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-util-1.0.1-X-src.tar.bz2
+  unpack font-util-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-util-1.0.1-X.cygport all
+  cygport ./font-util-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/font-util-1.0.1-X-src.tar.bz2
-  /usr/src/font-util-1.0.1-X.tar.bz2
+  /usr/src/font-util-1.0.2-X-src.tar.bz2
+  /usr/src/font-util-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -46,8 +45,9 @@ Files included in the binary package:
   /usr/bin/ucs2any.exe
   /usr/lib/pkgconfig/fontutil.pc
   /usr/share/aclocal/fontutil.m4
-  /usr/share/doc/font-util-1.0.1/COPYING
-  /usr/share/doc/font-util-1.0.1/ChangeLog
+  /usr/share/doc/font-util/COPYING
+  /usr/share/doc/font-util/ChangeLog
+  /usr/share/doc/font-util/README
   /usr/share/fonts/util/map-ISO8859-1
   /usr/share/fonts/util/map-ISO8859-10
   /usr/share/fonts/util/map-ISO8859-11
@@ -71,6 +71,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump for X11R7.5.
 
 ----- version 1.0.1-1 -----
 Version bump.
