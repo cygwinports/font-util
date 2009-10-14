@@ -1,4 +1,4 @@
 category: X11
-requires: libgcc1 perl
+requires: libgcc1
 sdesc: "X.Org font utilities and font maps"
 ldesc: "X.Org font utilities and font maps"

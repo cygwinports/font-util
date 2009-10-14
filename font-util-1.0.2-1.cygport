@@ -1,3 +1,0 @@
-inherit xorg
-
-CYGCONF_ARGS="--with-mapdir=/usr/share/fonts/util"
