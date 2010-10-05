@@ -1,4 +1,4 @@
 category: X11
-requires: libgcc1
+requires: 
 sdesc: "X.Org font utilities and font maps"
 ldesc: "X.Org font utilities and font maps"
